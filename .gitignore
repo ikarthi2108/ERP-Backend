@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# VSCode settings
+.vscode/
+
+# macOS Finder attributes
+.DS_Store
+
+# Linux trash folder which might appear on file systems
+.Trash-*
+
+# Windows Installer files
+Thumbs.db
+
+# IDE settings
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Build output
+/dist
+/build
+/public
+
+# .env files for sensitive credentials (if you're using them for local dev)
+.env.local
+.env.*.local
+
+# npm packages
+package-lock.json
+
+# Optional VS Code extensions
+.vscode/extensions.json
