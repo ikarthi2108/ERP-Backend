@@ -6,9 +6,6 @@ const initializeUsers = async () => {
   const defaultUsers = [
     { emp_id: 'EMP001', name: 'Admin User', username: 'admin', password: 'admin123', role: 'admin' },
     { emp_id: 'EMP002', name: 'User One', username: 'user1', password: 'password1', role: 'user' },
-    { emp_id: 'EMP003', name: 'User Two', username: 'user2', password: 'password2', role: 'user' },
-    { emp_id: 'EMP004', name: 'User Three', username: 'user3', password: 'password3', role: 'user' },
-    { emp_id: 'EMP005', name: 'User Four', username: 'user4', password: 'password4', role: 'user' },
   ];
 
   for (const user of defaultUsers) {
