@@ -13,13 +13,8 @@ connectDB();
 
 const app = express();
 app.use(express.json());
-const corsOptions = {
-    origin: '*', 
-    methods: ['GET', 'POST', 'PUT', 'DELETE'], 
-    allowedHeaders: ['Authorization', 'Content-Type'],
-  };
-  app.use(cors(corsOptions));
-  
+app.use(cors());
+
 // Routes
 app.use('/api/users', userRoutes);
 app.use('/api/forms', formRoutes);
